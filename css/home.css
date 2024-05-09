@@ -1,7 +1,97 @@
 .homepage {
-  width: 100vw;
-  height: 100vh;
+  width: 1216px;
+  height: 800px;
   background: url("../img/main_img.webp") no-repeat;
   background-size: cover;
   background-position: top center;
+}
+.homepage .homediv {
+  width: 1170px;
+  height: 360px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.homepage .homediv .homeboxdiv {
+  width: 550px;
+  height: 250px;
+  background-color: white;
+  padding-top: 45px;
+  padding-left: 50px;
+  padding-bottom: 60px;
+  padding-right: 50px;
+  position: relative;
+  top: 150px;
+  left: 20px;
+}
+.homepage .homediv .homeboxdiv h2 {
+  color: rgb(20, 35, 54);
+  font-family: "Saira Condensed";
+  font-size: 50px;
+  font-weight: 600px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+  top: -50px;
+}
+.homepage .homediv .homeboxdiv p {
+  color: rgb(20, 35, 54);
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 400px;
+  margin-bottom: 35px;
+  position: relative;
+  text-align: left;
+  top: -50px;
+}
+.homepage .homediv .homeboxdiv a {
+  background-color: rgb(250, 209, 16);
+  color: rgb(20, 35, 54);
+  font-family: "Saira Condensed";
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 14px;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  top: -40px;
+}
+
+.benefititem {
+  height: 180px;
+  width: 260px;
+  background-color: white;
+  color: rgb(20, 35, 54);
+  position: relative;
+  top: -100px;
+  left: 30px;
+  float: left;
+  margin-left: 22px;
+  border-bottom-color: rgb(225, 225, 225);
+  border-bottom-style: solid;
+  border-left-color: rgb(225, 225, 225);
+  border-left-style: solid;
+  border-right-color: rgb(225, 225, 225);
+  border-right-style: solid;
+  border-top-color: rgb(225, 225, 225);
+  border-top-style: solid;
+  border-width: 0.666667px;
+}
+.benefititem img {
+  position: relative;
+  left: 80px;
+  top: 40px;
+}
+.benefititem h4 {
+  position: relative;
+  left: 45px;
+  top: 20px;
+  font-family: "Saira Condensed";
+  font-size: 24px;
+  font-weight: 600;
 }/*# sourceMappingURL=home.css.map */
