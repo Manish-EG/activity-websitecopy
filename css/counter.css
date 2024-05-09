@@ -1,0 +1,42 @@
+.counter {
+  width: 100vw;
+  height: 425px;
+  background-color: #142336;
+}
+.counter div {
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 0 auto;
+}
+.counter div div {
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  margin: 100px 20px 0 0;
+}
+.counter div div img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+.counter div div span {
+  font-size: 50px;
+  color: #ffffff;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 46px;
+  margin-bottom: 25px;
+  margin-top: 26px;
+  text-align: center;
+}
+.counter div div p {
+  font-size: 1.5em;
+  color: #4586d5;
+  font-weight: 600;
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
+}/*# sourceMappingURL=counter.css.map */

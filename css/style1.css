@@ -1,0 +1,71 @@
+
+.banner{
+    color: white;
+    width: 100vw;
+    height: 30vh;
+   padding-top: 85px;
+        padding-bottom: 85px;
+        background: url("../img/banner_img.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+
+  
+    .banner_text {
+        text-align: center;
+    }
+    .banner_text{
+        p{
+            font-family: "Mulish", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 20px;
+            font-weight:700;
+            /* background-color: red; */
+            position: relative;
+            top:10%;
+            /* left:30%; */
+
+        }
+    }
+    .banner_text {
+        h2 {
+        color: whit;;
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+        text-shadow: 1px 1px 2px #142336;
+        font-family: "Saira Condensed", sans-serif;
+        /* background-color: blue; */
+
+    }
+}
+
+    .banner_btn{
+        width: 100%;
+        height: max-content;
+    }
+
+    .banner_btn{ 
+        button{
+        /* width: 200px; */
+        display: inline-block;
+        font-size: 18px;
+        color: #142336;
+        font-family: "Saira Condensed", sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        background: #FAD110;
+        padding: 14px 36px 12px;
+    position: relative;
+    /* top: 100px; */
+    left: 43%;
+        
+    }
+}
+      
+   
+   

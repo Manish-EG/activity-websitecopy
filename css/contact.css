@@ -1,0 +1,90 @@
+.contactus {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactus > div {
+  width: 100%;
+  height: 80%;
+  background-color: #4586d5;
+}
+.contactus > div img {
+  width: 49%;
+  height: 100%;
+}
+
+.formContainer {
+  float: left;
+  width: 51%;
+  height: 100%;
+}
+.formContainer > div {
+  height: 70%;
+  width: 80%;
+  margin: 80px auto;
+}
+.formContainer > div h2 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Saira Condensed", sans-serif;
+  margin-bottom: 0;
+}
+.formContainer > div form {
+  margin-top: 34px;
+}
+.formContainer > div form > div {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.formContainer > div form > div input {
+  height: 40px;
+  width: 40%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+  display: inline;
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+.formContainer > div form > div input:nth-child(1) {
+  margin-right: 30px;
+}
+.formContainer > div form > div input::-moz-placeholder {
+  color: white;
+}
+.formContainer > div form > div input::placeholder {
+  color: white;
+}
+.formContainer > div form textarea {
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+.formContainer > div form textarea::-moz-placeholder {
+  color: white;
+}
+.formContainer > div form textarea::placeholder {
+  color: white;
+}
+.formContainer > div form button {
+  border: none;
+  display: inline-block;
+  padding: 14px 30px;
+  background: #fad110;
+  font-size: 16px;
+  font-family: "Saira Condensed", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=contact.css.map */
