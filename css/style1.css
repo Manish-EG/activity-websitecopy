@@ -61,10 +61,14 @@
         background: #FAD110;
         padding: 14px 36px 12px;
     position: relative;
-    /* top: 100px; */
+    border: none;
     left: 43%;
+    &:hover{
+        color: white;
+    }
         
     }
+    
 }
       
    
