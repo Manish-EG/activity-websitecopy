@@ -1,13 +1,7 @@
-html,
-body {
-  height: 100%;
-  font-family: "Mulish", sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
 .prod-col1 {
   float: left;
 }
-
+ 
 .prod-col2 {
   float: right;
   height: 40px;
@@ -34,22 +28,23 @@ body {
   margin-right: -200px;
   padding: 14px 36px 12px;
   position: relative;
-  margin-left: -110px;
+  top:-90px;
+  margin-left: -140px;
   margin-top: 20px;
 }
-
+ 
 .prod-row {
   display: flex;
   justify-content: space-between;
 }
-
+ 
 .prod-col3,
 .prod-col4,
 .prod-col5,
 .prod-col6 {
   flex: 1;
   margin-right: 10px;
-
+ 
   .prod-im {
     margin-top: 60px;
     border: 1px solid rgb(226, 224, 224);
@@ -108,7 +103,9 @@ body {
 .prod-title {
   margin-top: 40px;
   margin-left: 10%;
-
+  position: relative;
+  top:20px;
+ 
   span {
     font-size: 18px;
     color: #4586d5;
@@ -117,14 +114,18 @@ body {
     display: block;
     text-transform: uppercase;
     margin-bottom: 12px;
+    position: relative;
+    top:-120px;
   }
   h2 {
     font-weight: 600;
     width: 500px;
     margin-top: 10px;
+    position: relative;
+    top:-120px;
   }
 }
-
+ 
 .prod-c2 {
   background-color: rgb(210, 17, 17);
   color: white;
@@ -154,86 +155,90 @@ body {
   margin-right: 0;
   /* Remove margin from the last column */
 }
-
+ 
 .prod-pro {
   /* Additional styling for product container if needed */
 }
-// @media only screen and (min-width: 992px) and (max-width: 1199px) {
-//   .protext {
-//     padding: 15px 20px 0;
-//   }
-// }
-
-// .protext {
-//   text-align: center;
-//   padding: 25px 40px 0;
-//   position: relative;
-// }
-// .protext h5 a {
-//   display: inline-block;
-//   color: #142336;
-//   line-height: 26px;
-//   width: 160px;
-//   margin-left: -50px;
-// }
-// .price {
-//   font-size: 24px;
-//   font-family: "Saira Condensed", sans-serif;
-//   color: #142336;
-//   font-weight: 600;
-//   -webkit-transition: all, 0.3s;
-//   -o-transition: all, 0.3s;
-//   transition: all, 0.3s;
-//   position: relative;
-//   left: 0;
-//   bottom: 0;
-//   margin-left: 15%;
-// }
-// .add_cart {
-//   margin-left: 60px;
-// }
-// .c1 {
-//   span {
-//     display: inline-block;
-//     font-size: 13px;
-//     font-weight: 600;
-//     color: #ffffff;
-//     background: #4586d5;
-//     padding: 1px 12px;
-//     width: 10px;
-//   }
-// }
-// .c2 span {
-//   background: #b94040;
-//   display: inline-block;
-//   font-size: 13px;
-//   font-weight: 600;
-//   color: #ffffff;
-//   width: 10px;
-//   height: 15px;
-//   padding: 1px 12px;
-//   position: relative;
-//   margin-top: -20px;
-// }
-// .stock span {
-//   background: #142336;
-//   display: inline-block;
-//   font-size: 13px;
-//   font-weight: 600;
-//   color: #ffffff;
-//   width: 40%;
-//   padding: 1px 12px;
-//   position: relative;
-//   top: -40px;
-// }
-
-// .protext .label span {
-//   display: inline-block;
-//   font-size: 13px;
-//   font-weight: 600;
-//   color: #ffffff;
-
-//   padding: 1px 12px;
-//   position: relative;
-//   top: -40px;
-// }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .protext {
+    padding: 15px 20px 0;
+  }
+}
+ 
+.prod-protext {
+  text-align: center;
+  padding: 25px 40px 0;
+  position: relative;
+}
+ 
+.prod-protext h5 a {
+  display: inline-block;
+  color: #142336;
+  line-height: 26px;
+  width: 160px;
+  margin-left: -50px;
+}
+ 
+.prod-price {
+  font-size: 24px;
+  font-family: "Saira Condensed", sans-serif;
+  color: #142336;
+  font-weight: 600;
+  -webkit-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  transition: all, 0.3s;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin-left: -10%;
+}
+.add_cart {
+  margin-left: 60px;
+}
+.c1 {
+  span {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #4586d5;
+    padding: 1px 12px;
+    width: 10px;
+  }
+}
+.c2 span {
+  background: #b94040;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 10px;
+  height: 15px;
+  padding: 1px 12px;
+  position: relative;
+ 
+  margin-top: -20px;
+}
+.stock span {
+  background: #142336;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 40%;
+  padding: 1px 12px;
+  position: relative;
+  top: -40px;
+}
+ 
+.prod-protext .label span {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+ 
+  padding: 1px 12px;
+  position: relative;
+  top: -40px;
+}
+ 

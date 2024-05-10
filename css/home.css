@@ -13,9 +13,9 @@
 }
 .homepage .homediv .homeboxdiv {
   width: 550px;
-  height: 250px;
+  height: 252px;
   background-color: white;
-  padding-top: 45px;
+  padding-top: 90px;
   padding-left: 50px;
   padding-bottom: 60px;
   padding-right: 50px;
@@ -68,24 +68,16 @@
   align-items: center;
   justify-content: center;
   gap: 42px;
+  position: relative;
+  top: 0px;
 }
 .benefititem-container .benefititem {
   height: 180px;
   width: 260px;
   background-color: white;
   color: rgb(20, 35, 54);
-  position: relative;
-  top: -100px;
   margin-left: 22px;
-  border-bottom-color: rgb(225, 225, 225);
-  border-bottom-style: solid;
-  border-left-color: rgb(225, 225, 225);
-  border-left-style: solid;
-  border-right-color: rgb(225, 225, 225);
-  border-right-style: solid;
-  border-top-color: rgb(225, 225, 225);
-  border-top-style: solid;
-  border-width: 0.666667px;
+  border: 1px solid rgb(225, 225, 225);
 }
 .benefititem-container .benefititem img {
   position: relative;
@@ -93,9 +85,8 @@
   top: 40px;
 }
 .benefititem-container .benefititem h4 {
-  position: relative;
-  left: 45px;
-  top: 20px;
+  width: 100%;
+  top: 51px;
   font-family: "Saira Condensed";
   font-size: 24px;
   font-weight: 600;

@@ -17,11 +17,14 @@
   height: 200px;
   margin-left: 60px;
   border-top: 1px solid rgb(84, 84, 82);
+  position: relative;
+  top: -40px;
+
   margin-top: 30px;
   h1 {
     color: #ffffff;
     position: relative;
-    top: -50px;
+    top: -30px;
   }
   p {
     font-size: 15px;
@@ -29,7 +32,7 @@
     list-style: none;
     margin-bottom: 14px;
     position: relative;
-    top: -50px;
+    top: -20px;
   }
   input {
          position: relative;
@@ -38,6 +41,10 @@
   button {
          position: relative;
     top: -30px;
+  }
+  i{
+    color: white;
+    margin-left: 10px;
   }
 }
 
@@ -48,10 +55,13 @@
   border-top: 1px solid rgb(84, 84, 82);
   margin-left: 20px;
   margin-top: 30px;
+  position: relative;
+  top: -40px;
+
   h1 {
     color: #ffffff;
     position: relative;
-    top: -50px;
+    top: -30px;
   }
   p {
     font-size: 15px;
@@ -59,7 +69,7 @@
     list-style: none;
     margin-bottom: 14px;
     position: relative;
-    top: -65px;
+    top: -20px;
   }
 }
 
@@ -78,11 +88,14 @@
   border-top: 1px solid rgb(84, 84, 82);
   margin-left: 15px;
   margin-top: 30px;
+  position: relative;
+  top: -40px;
+
   h1 {
     color: #ffffff;
     position: relative;
-    top: -50px;
-    margin-left: -100px;
+    top: -30px;
+    margin-left: -130px;
   }
   div {
     font-size: 15px;
@@ -91,10 +104,11 @@
     margin-bottom: 14px;
     position: relative;
     position: relative;
-    top: -30px;
+    top: -20px;
+    
     img{
-         position: relative;
-    top: -30px;
+      position: relative;
+      top: -10px;
     }
   }
 }
@@ -112,6 +126,8 @@
 .fbox5 p {
   text-align: center;
   color: aliceblue;
+  position: relative;
+  top: 20px;
 }
 .fbox4 button {
   border: none;
@@ -131,7 +147,7 @@
   background-color: cornflowerblue;
   position: relative;
   top: 80px;
-  margin-left: 3.7%;
+  margin-left: 4.7%;
 }
 .contfloat1 {
   float: left;

@@ -160,13 +160,6 @@ button {
   text-align: center;
 }
 
-html,
-body {
-  height: 100%;
-  font-family: "Mulish", sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
 .prod-col1 {
   float: left;
 }
@@ -325,6 +318,86 @@ body {
 
 .prod-pro {
   /* Additional styling for product container if needed */
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .protext {
+    padding: 15px 20px 0;
+  }
+}
+.prod-protext {
+  text-align: center;
+  padding: 25px 40px 0;
+  position: relative;
+}
+
+.prod-protext h5 a {
+  display: inline-block;
+  color: #142336;
+  line-height: 26px;
+  width: 160px;
+  margin-left: -50px;
+}
+
+.prod-price {
+  font-size: 24px;
+  font-family: "Saira Condensed", sans-serif;
+  color: #142336;
+  font-weight: 600;
+  transition: all, 0.3s;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin-left: -10%;
+}
+
+.add_cart {
+  margin-left: 60px;
+}
+
+.c1 span {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #4586d5;
+  padding: 1px 12px;
+  width: 10px;
+}
+
+.c2 span {
+  background: #b94040;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 10px;
+  height: 15px;
+  padding: 1px 12px;
+  position: relative;
+  margin-top: -20px;
+}
+
+.stock span {
+  background: #142336;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 40%;
+  padding: 1px 12px;
+  position: relative;
+  top: -40px;
+}
+
+.prod-protext .label span {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 1px 12px;
+  position: relative;
+  top: -40px;
 }
 
 .footer {
@@ -529,7 +602,7 @@ h1 {
 .footer {
   margin-top: 30px;
   background-color: #142336;
-  height: 700px;
+  height: 350px;
   width: 100%;
   float: left;
   padding-top: 20px;
