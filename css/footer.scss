@@ -17,11 +17,13 @@
   height: 200px;
   margin-left: 60px;
   border-top: 1px solid rgb(84, 84, 82);
+  position: relative;
+  top: -50px;
   margin-top: 30px;
   h1 {
     color: #ffffff;
     position: relative;
-    top: -50px;
+    top: -30px;
   }
   p {
     font-size: 15px;
@@ -29,14 +31,14 @@
     list-style: none;
     margin-bottom: 14px;
     position: relative;
-    top: -50px;
+    top: -30px;
   }
   input {
-         position: relative;
+    position: relative;
     top: -30px;
   }
   button {
-         position: relative;
+    position: relative;
     top: -30px;
   }
 }
@@ -48,10 +50,12 @@
   border-top: 1px solid rgb(84, 84, 82);
   margin-left: 20px;
   margin-top: 30px;
+      position: relative;
+    top: -50px;
   h1 {
     color: #ffffff;
     position: relative;
-    top: -50px;
+    top: -30px;
   }
   p {
     font-size: 15px;
@@ -59,7 +63,7 @@
     list-style: none;
     margin-bottom: 14px;
     position: relative;
-    top: -65px;
+    top: -30px;
   }
 }
 
@@ -77,11 +81,11 @@
   text-align: center;
   border-top: 1px solid rgb(84, 84, 82);
   margin-left: 15px;
-  margin-top: 30px;
+  margin-top: -20px;
   h1 {
     color: #ffffff;
     position: relative;
-    top: -50px;
+    top: -30px;
     margin-left: -100px;
   }
   div {
@@ -91,10 +95,10 @@
     margin-bottom: 14px;
     position: relative;
     position: relative;
-    top: -30px;
-    img{
-         position: relative;
-    top: -30px;
+    top: -20px;
+    img {
+      position: relative;
+      top: 0px;
     }
   }
 }
@@ -106,8 +110,8 @@
   border-top: 1px solid rgb(84, 84, 82);
   float: left;
   background-color: #142336;
-       position: relative;
-    top: -30px;
+  position: relative;
+  top: -30px;
 }
 .fbox5 p {
   text-align: center;
@@ -174,7 +178,7 @@
   font-size: 13px;
   color: #142336;
   background: #fad110;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   padding: 2px 10px 1px;
   display: inline-block;
@@ -183,7 +187,7 @@
 h1 {
   font-family: "Saira Condensed", sans-serif;
 }
- .footer {
+.footer {
   margin-top: 30px;
   background-color: #142336;
   height: 350px;
