@@ -2,5 +2,7 @@
   margin: 0;
   font-family: "Mulish", sans-serif
 }
-@import "counter.scss";
-
+button{
+  cursor: pointer;
+}
+@import "welcome.scss","counter.scss","contact.css","services.css","latest.css","product.scss","footer.scss","home.scss","menu.scss";

@@ -1,11 +1,12 @@
 .welcomePage {
   width: 100vw;
-  height: 100vh;
+  height: 86vh;
 }
 .welcomePage > div {
   width: 92%;
   height: 80%;
-  margin: 8% auto;
+  margin: 0 auto;
+  margin-top: 8%;
 }
 
 .welcome-img {
