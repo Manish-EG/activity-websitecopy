@@ -190,7 +190,8 @@ button {
   margin-right: -200px;
   padding: 14px 36px 12px;
   position: relative;
-  margin-left: -110px;
+  top: -90px;
+  margin-left: -140px;
   margin-top: 20px;
 }
 
@@ -268,6 +269,8 @@ button {
 .prod-title {
   margin-top: 40px;
   margin-left: 10%;
+  position: relative;
+  top: 20px;
 }
 .prod-title span {
   font-size: 18px;
@@ -277,11 +280,15 @@ button {
   display: block;
   text-transform: uppercase;
   margin-bottom: 12px;
+  position: relative;
+  top: -120px;
 }
 .prod-title h2 {
   font-weight: 600;
   width: 500px;
   margin-top: 10px;
+  position: relative;
+  top: -120px;
 }
 
 .prod-c2 {
@@ -420,13 +427,15 @@ button {
   height: 200px;
   margin-left: 60px;
   border-top: 1px solid rgb(84, 84, 82);
+  position: relative;
+  top: -40px;
   margin-top: 30px;
 }
 .fbox1 h1,
 .fbox4 h1 {
   color: #ffffff;
   position: relative;
-  top: -50px;
+  top: -30px;
 }
 .fbox1 p,
 .fbox4 p {
@@ -435,7 +444,7 @@ button {
   list-style: none;
   margin-bottom: 14px;
   position: relative;
-  top: -50px;
+  top: -20px;
 }
 .fbox1 input,
 .fbox4 input {
@@ -447,6 +456,11 @@ button {
   position: relative;
   top: -30px;
 }
+.fbox1 i,
+.fbox4 i {
+  color: white;
+  margin-left: 10px;
+}
 
 .fbox2 {
   float: left;
@@ -455,11 +469,13 @@ button {
   border-top: 1px solid rgb(84, 84, 82);
   margin-left: 20px;
   margin-top: 30px;
+  position: relative;
+  top: -40px;
 }
 .fbox2 h1 {
   color: #ffffff;
   position: relative;
-  top: -50px;
+  top: -30px;
 }
 .fbox2 p {
   font-size: 15px;
@@ -467,7 +483,7 @@ button {
   list-style: none;
   margin-bottom: 14px;
   position: relative;
-  top: -65px;
+  top: -20px;
 }
 
 .fbox2-1 {
@@ -487,12 +503,14 @@ button {
   border-top: 1px solid rgb(84, 84, 82);
   margin-left: 15px;
   margin-top: 30px;
+  position: relative;
+  top: -40px;
 }
 .fbox3 h1 {
   color: #ffffff;
   position: relative;
-  top: -50px;
-  margin-left: -100px;
+  top: -30px;
+  margin-left: -130px;
 }
 .fbox3 div {
   font-size: 15px;
@@ -501,11 +519,11 @@ button {
   margin-bottom: 14px;
   position: relative;
   position: relative;
-  top: -30px;
+  top: -20px;
 }
 .fbox3 div img {
   position: relative;
-  top: -30px;
+  top: -10px;
 }
 
 .fbox5 {
@@ -522,6 +540,8 @@ button {
 .fbox5 p {
   text-align: center;
   color: aliceblue;
+  position: relative;
+  top: 20px;
 }
 
 .fbox4 button {
@@ -543,7 +563,7 @@ button {
   background-color: cornflowerblue;
   position: relative;
   top: 80px;
-  margin-left: 3.7%;
+  margin-left: 4.7%;
 }
 
 .contfloat1 {
@@ -627,9 +647,9 @@ h1 {
 }
 .homepage .homediv .homeboxdiv {
   width: 550px;
-  height: 250px;
+  height: 252px;
   background-color: white;
-  padding-top: 45px;
+  padding-top: 90px;
   padding-left: 50px;
   padding-bottom: 60px;
   padding-right: 50px;
@@ -682,24 +702,16 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 42px;
+  position: relative;
+  top: 0px;
 }
 .benefititem-container .benefititem {
   height: 180px;
   width: 260px;
   background-color: white;
   color: rgb(20, 35, 54);
-  position: relative;
-  top: -100px;
   margin-left: 22px;
-  border-bottom-color: rgb(225, 225, 225);
-  border-bottom-style: solid;
-  border-left-color: rgb(225, 225, 225);
-  border-left-style: solid;
-  border-right-color: rgb(225, 225, 225);
-  border-right-style: solid;
-  border-top-color: rgb(225, 225, 225);
-  border-top-style: solid;
-  border-width: 0.666667px;
+  border: 1px solid rgb(225, 225, 225);
 }
 .benefititem-container .benefititem img {
   position: relative;
@@ -707,9 +719,8 @@ h1 {
   top: 40px;
 }
 .benefititem-container .benefititem h4 {
-  position: relative;
-  left: 45px;
-  top: 20px;
+  width: 100%;
+  top: 51px;
   font-family: "Saira Condensed";
   font-size: 24px;
   font-weight: 600;
@@ -717,13 +728,13 @@ h1 {
 
 .header {
   width: 100%;
-  height: 101px;
+  height: 100px;
   background-color: red;
 }
 
 .header-icons {
   width: 20%;
-  height: 101px;
+  height: 100px;
   background-color: white;
   float: left;
 }
@@ -745,8 +756,8 @@ h1 {
 }
 
 .header-menu {
-  width: 60%;
-  height: 101px;
+  width: 56%;
+  height: 100px;
   background-color: white;
   float: left;
 }
@@ -755,20 +766,38 @@ h1 {
   font-weight: 600;
   font-family: "Saira Condensed";
   position: relative;
-  left: 5px;
-  top: 25px;
+  left: 20px;
+  top: 35px;
   float: left;
+  margin: 0 10px;
 }
 .header-menu .img-div {
   width: 180px;
-  height: 100px;
-  background-color: #212529;
+  height: 123px;
+  background-color: #142336;
   position: relative;
   left: 5px;
-  top: -15px;
+  top: -28px;
   float: left;
-  margin-left: 20px;
+  margin-left: 70px;
   justify-content: center;
+}
+.header-menu .img-div img {
+  position: relative;
+  left: 10px;
+  top: 19px;
+}
+.header-menu .img-div::after {
+  position: absolute;
+  left: 0;
+  bottom: -19px;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 19px solid #142336;
+  content: "";
+  z-index: 9;
 }
 .header-menu .ul2 li {
   font-size: 18px;
@@ -776,13 +805,14 @@ h1 {
   font-family: "Saira Condensed";
   position: relative;
   left: 5px;
-  top: 25px;
+  top: 35px;
   float: left;
+  margin: 0 10px;
 }
 
 .header-contact {
-  width: 20%;
-  height: 101px;
+  width: 24%;
+  height: 100px;
   background-color: white;
   float: left;
 }
@@ -791,7 +821,8 @@ h1 {
   height: 50px;
   border: 2px solid rgb(250, 209, 16);
   position: relative;
-  top: 23px;
+  top: 20px;
+  left: 40px;
 }
 .header-contact .contact p {
   color: rgb(69, 134, 213);
@@ -799,5 +830,5 @@ h1 {
   font-weight: 700;
   position: relative;
   left: 40px;
-  top: -15px;
+  top: 8px;
 }/*# sourceMappingURL=index.css.map */
