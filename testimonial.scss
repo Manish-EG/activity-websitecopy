@@ -1,0 +1,254 @@
+.title{
+    // margin-top: -50px;
+    // height: ;
+    img {
+        position: relative;
+        left:45%;
+        top:100px;
+        height: 125px;
+        width: 135px;
+      }
+}
+
+.title{
+    
+    span{
+    font-size: 20px;
+    color: #4586D5;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+    height: 100%;
+    font-family: "Mulish", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    }
+    // .center{
+    //     background-image: url(../img/latest_bg.webp);
+    //     background-repeat: none;
+    //     width: 100px;
+    //     height: 100px;
+    // }
+    h2{
+        font-size: 40px;
+    color: #142336;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    line-height: 1.2;
+    // display: block;
+    // margin-block-start: 0.83em;
+    // margin-block-end: 0.83em;
+    // margin-inline-start: 0px;
+    // margin-inline-end: 0px;
+    // font-weight: bold;
+    unicode-bidi: isolate;
+    font-family: "Saira Condensed", sans-serif;
+    }
+}
+
+.container1
+{
+    font-family: "Mulish", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    .author{
+        display: flex;
+    gap: 30px;
+    position: relative;
+    left: 55px;
+    &::before{
+        position: absolute;
+        left: 20px;
+        top: -36px;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid #ffffff;
+        content: "";
+        margin: 0 auto;
+    }
+    .About{
+        position: relative;
+        top: -20px;
+    left: -5px;
+
+        h4{
+            // font-size: 24px;
+            // font-family:"Saira Condensed", sans-serif;
+            color: #142336;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            margin: 0;
+            line-height: 1.2;
+    font-family: "Saira Condensed", sans-serif;
+
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    // font-weight: bold;
+    unicode-bidi: isolate;
+        }
+        span{
+            position:relative;
+            top:-25px;
+            font-size: 14px;
+    color: #4586D5;
+    display: block;
+    font-style: italic;
+    height: 100%;
+    font-family: "Mulish", sans-serif;
+    -webkit-font-smoothing: antialiased;
+        }
+    }
+    }
+    .Lcard{
+        width: 30%;
+        height: 150px;
+        float:left;
+        margin-left: 30px;
+        
+        .text{
+            // border: 1px solid black;
+            font-size: 20px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+
+            background: #ffffff;
+            -webkit-box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+            box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+            padding: 40px 50px 45px;
+            margin-bottom: 36px;
+            border-top: 5px solid rgba(69, 134, 213, 0.2);
+            -webkit-transition: all, 0.3s;
+            -o-transition: all, 0.3s;
+            transition: all, 0.3s;
+            
+            p{
+                font-size: 18px;
+                color: #142336;
+                line-height: 35px;
+                font-style: italic;
+                margin-bottom: 0;
+                font-family: "Mulish", sans-serif;
+                font-weight: 400;
+                margin: 0 0 15px 0;
+            }
+        
+        }
+        .image{
+            float: left;
+        }
+        .About{
+            float: left;
+        }
+    }
+
+    .Mcard{
+        width: 30%;
+        height: 150px;
+        float:left;
+        margin-left: 30px;
+
+        
+        .text{
+            // border: 1px solid black;
+            font-size: 20px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+
+            background: #ffffff;
+            -webkit-box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+            box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+            padding: 40px 50px 45px;
+            margin-bottom: 36px;
+            border-top: 5px solid rgba(69, 134, 213, 0.2);
+            -webkit-transition: all, 0.3s;
+            -o-transition: all, 0.3s;
+            transition: all, 0.3s;
+            p{
+                font-size: 18px;
+                color: #142336;
+                line-height: 35px;
+                font-style: italic;
+                margin-bottom: 0;
+                font-family: "Mulish", sans-serif;
+                font-weight: 400;
+                margin: 0 0 15px 0;
+            }
+        
+        }
+        .image{
+            float: left;
+        }
+        .About{
+            float: left;
+        }
+    }
+    .Rcard{
+        width: 30%;
+        height: 150px;
+        float:left;
+        margin-left: 30px;
+
+        
+        .text{
+            // border: 1px solid black;
+            font-size: 20px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+
+            background: #ffffff;
+            -webkit-box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+            box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+            padding: 40px 50px 45px;
+            margin-bottom: 36px;
+            border-top: 5px solid rgba(69, 134, 213, 0.2);
+            -webkit-transition: all, 0.3s;
+            -o-transition: all, 0.3s;
+            transition: all, 0.3s;
+
+            p{
+                font-size: 18px;
+                color: #142336;
+                line-height: 35px;
+                font-style: italic;
+                margin-bottom: 0;
+                font-family: "Mulish", sans-serif;
+                font-weight: 400;
+                margin: 0 0 15px 0;
+            }
+        
+        }
+        
+        
+        .image{
+            float: left;
+        }
+        .About{
+            float: left;
+            margileft: 10px;
+        }
+       }
+    
+    
+
+}

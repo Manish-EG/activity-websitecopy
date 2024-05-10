@@ -1,6 +1,8 @@
-.title {
-  margin-top: -50px;
+.container {
+  background-color: #FAD110;
+  margin-bottom: 50px;
 }
+
 .title img {
   position: relative;
   left: 45%;
